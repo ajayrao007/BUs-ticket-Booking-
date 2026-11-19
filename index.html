@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bus Ticket Booking</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #173b68;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #0002;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 14px;
+            text-align: center;
+        }
+
+        th {
+            background: #173b68;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f6fa;
+        }
+
+        .available {
+            color: green;
+            font-weight: bold;
+        }
+
+        .price {
+            color: #d35400;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Online Bus Ticket Booking System</h1>
+
+    <div class="container">
+        <h2>Available Bus Details</h2>
+
+        <table>
+            <tr>
+                <th>Bus Name</th>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>Journey Date</th>
+                <th>Ticket Price</th>
+                <th>Available Seats</th>
+            </tr>
+
+            <tr>
+                <td>Express Travels</td>
+                <td>Warangal</td>
+                <td>Hyderabad</td>
+                <td>25-11-2026</td>
+                <td class="price">₹500</td>
+                <td class="available">25</td>
+            </tr>
+
+            <tr>
+                <td>Royal Bus</td>
+                <td>Hyderabad</td>
+                <td>Vijayawada</td>
+                <td>26-11-2026</td>
+                <td class="price">₹650</td>
+                <td class="available">18</td>
+            </tr>
+
+            <tr>
+                <td>Green Travels</td>
+                <td>Warangal</td>
+                <td>Karimnagar</td>
+                <td>27-11-2026</td>
+                <td class="price">₹250</td>
+                <td class="available">30</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
